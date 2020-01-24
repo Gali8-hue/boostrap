@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #f38181;
+}
+
+/* EDIT */
+.garis {
+    height: 3px;
+    width: 60px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.garis.merah{
+    background: #f38181;
+}
+.garis.putih {
+    background: #fff;
+}
+
+[class*="container"]:not(:first-child):not(.nopadding) >.row:first-child{
+    padding-top:50px;
+    margin-top: 20px;
+
+}
+
+/*NAVBAR ON IMAGE*/
+/* EDIT */
+/* EDIT */
+
+
+/* 
+EDIT
+.row .col-12 {
+    text-align: center;
+    color: white;
+    margin-top: 9%;
+}
+*/
+
+.row .col-12 h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.row .col-12 p {
+    font-size: 75px;
+}
+
+.navbar *{
+    color:white !important;
+}
+
+#nav {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    left: 5%;
+}
+
+
+   
+
+ 
+#nav>[class*="col-"] span {
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
+#nav>[class*="col-"] div {
+    border-top: 3px solid white;
+    color: white;
+    text-align:left;
+    padding: 22px 0 0;
+}
+
+.heading-title{
+    color:white;
+    text-align:center;
+    padding:25vh 0;
+}
+
+
+
+/*STORY ABOUT*/
+
+
+.row .justify-content-center> div {
+    border-left: solid 1px white;
+}
+
+#number .col-sm-2 {
+   top: 15px;
+    text-align: center;
+    color: white;
+}
+#number .col-sm-2 p {
+    font-size: small;
+}
+#number .col-sm-2 h3 {
+     font-family: 'Roboto', sans-serif;
+
+}
+h5 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#phone {
+    position: absolute;
+    bottom: -100px;
+    right: 270px;
+}
+
+/*WE DO*/
+#accordionExample .card .collapsed .fa-chevron-down:before {
+    content: "\f077";
+}
+
+#testimoni .carousel-item{
+    padding:0 0 20px 20px;
+}
+
+#testimoni .carousel-item .row [class*="col-"]:first-child{
+    color: #95e1d3;
+    font-size:400%;
+    text-align:center;
+    padding:20px 0;
+    border:2px solid;
+}
+
+
+/*OUR TEAM*/
+.our-team-picture [class*="col-"]{
+    padding:0 1.5em;
+}
+.our-team-picture [class*="col-"] img{
+    width:100%;
+    height: 470px;
+    object-fit:cover;
+
+    margin-bottom:20px;
+}
+
+.ourteamname+p{
+    color:grey;
+}
+
+/*OPEN MAP*/
+
+/* people */
+#people {
+    background-color: #94e1d3#94e1d3;
+    background-image: linear-gradient(62deg, #94e1d3 0%, #f38181 100%);
+    
+}
+#people .row >.col-2 {
+text-align: center;
+}
+#people .col-2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/* FOOTER */
+ #instagram img {
+     width: 6.5vw;
+     height: 6.5vw;
+     object-fit: cover;
+ }
+
+.img-full {
+    width: 100%;
+    
+   
+}
+ .img-full img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+
+ }
+.img-full ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+ .img-full li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 25%;
+     height: 250px;
+ }
+
+ .img-full ul:nth-child(1) > li:nth-child(3) {
+     height: 500px;
+ }
